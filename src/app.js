@@ -2,7 +2,8 @@ import express from 'express'
 
 const app = express()
 
-app.use('/', (_req, res) => {
+app.get('/', (_req, res) => {
+  console.log('Me llego peticion a la raiz del proyecto');
   res.send('Server responding on root path')
 })
 
