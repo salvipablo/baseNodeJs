@@ -1,0 +1,16 @@
+{
+  "name": "basenodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [],
+  "author": "PJS",
+  "license": "ISC",
+  "description": "Proyecto base para NodeJs",
+  "dependencies": {
+    "express": "4.21.2"
+  }
+}
